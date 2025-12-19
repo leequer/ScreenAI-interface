@@ -29,6 +29,8 @@ def color_tips():
     cv2.imshow('colors', board)
 
 
+import sys
+
 if __name__ == '__main__':
     # Set multiprocessing start method to 'spawn' for macOS compatibility.
     # This must be done at the very beginning of the main block.
@@ -61,8 +63,11 @@ if __name__ == '__main__':
     key_params = {'min-grad':10, 'ffl-block':5, 'min-ele-area':50,
                   'merge-contained-ele':True, 'merge-line-to-paragraph':False, 'remove-bar':True}
 
-    # set input image path
-    input_path_img = '../data/input/test4.png'
+    # set input image path from command line argument or use default
+    if len(sys.argv) > 1:
+        input_path_img = sys.argv[1]
+    else:
+        input_path_img = '../data/input/test4.png'
     output_root = '../data/output'
 
     resized_height = resize_height_by_longest_edge(input_path_img, resize_length=800)
