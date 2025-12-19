@@ -1,0 +1,56 @@
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+
+# Logs & outputs
+logs/
+output/
+outputs/
+runs/
+wandb/
+*.log
+
+# Data & checkpoints (large files)
+data/
+checkpoints/
+experiments/
+*.ckpt
+*.safetensors
+*.pt
+*.bin
+
+# HuggingFace / caches
+hf_cache/
+ms_cache/
+om_cache/
+**/.cache/
+
+# Conda env archives
+conda_envs/*.tar.gz
+conda_envs/*.tar.gz.part.*
+
+# LLaMA-Factory artifacts
+LLaMA-Factory/output/
+LLaMA-Factory/saves/
+LLaMA-Factory/.cache/
+
+# VLM-R1 artifacts
+VLM-R1/output/
+VLM-R1/.cache/
+
+# vLLM
+vllm/*.json
+vllm/*.log

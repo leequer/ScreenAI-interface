@@ -1,0 +1,129 @@
+{
+    "img_shape": [
+        757,
+        395,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "DeviceConfig",
+            "column_min": 124,
+            "row_min": 0,
+            "column_max": 253,
+            "row_max": 23,
+            "width": 129,
+            "height": 23
+        },
+        {
+            "id": 1,
+            "content": "CNPX00000004 connected",
+            "column_min": 99,
+            "row_min": 94,
+            "column_max": 367,
+            "row_max": 122,
+            "width": 268,
+            "height": 28
+        },
+        {
+            "id": 2,
+            "content": "44:17:93:F1:B3:CA",
+            "column_min": 98,
+            "row_min": 132,
+            "column_max": 245,
+            "row_max": 155,
+            "width": 147,
+            "height": 23
+        },
+        {
+            "id": 3,
+            "content": "Device Model:PX",
+            "column_min": 99,
+            "row_min": 176,
+            "column_max": 244,
+            "row_max": 197,
+            "width": 145,
+            "height": 21
+        },
+        {
+            "id": 4,
+            "content": "View log",
+            "column_min": 240,
+            "row_min": 215,
+            "column_max": 317,
+            "row_max": 247,
+            "width": 77,
+            "height": 32
+        },
+        {
+            "id": 5,
+            "content": "TOP-UP(Virtual)",
+            "column_min": 19,
+            "row_min": 338,
+            "column_max": 189,
+            "row_max": 368,
+            "width": 170,
+            "height": 30
+        },
+        {
+            "id": 6,
+            "content": "\u25bcParameter Settings",
+            "column_min": 19,
+            "row_min": 414,
+            "column_max": 209,
+            "row_max": 443,
+            "width": 190,
+            "height": 29
+        },
+        {
+            "id": 7,
+            "content": "\u25bcNetwork Settings",
+            "column_min": 20,
+            "row_min": 489,
+            "column_max": 194,
+            "row_max": 520,
+            "width": 174,
+            "height": 31
+        },
+        {
+            "id": 8,
+            "content": "\u25bcControl",
+            "column_min": 21,
+            "row_min": 566,
+            "column_max": 113,
+            "row_max": 597,
+            "width": 92,
+            "height": 31
+        },
+        {
+            "id": 9,
+            "content": "\u25bcSvstem",
+            "column_min": 21,
+            "row_min": 638,
+            "column_max": 110,
+            "row_max": 670,
+            "width": 89,
+            "height": 32
+        },
+        {
+            "id": 10,
+            "content": "Disconnect",
+            "column_min": 0,
+            "row_min": 705,
+            "column_max": 101,
+            "row_max": 735,
+            "width": 101,
+            "height": 30
+        },
+        {
+            "id": 11,
+            "content": "Synchronize to P1",
+            "column_min": 195,
+            "row_min": 710,
+            "column_max": 319,
+            "row_max": 735,
+            "width": 124,
+            "height": 25
+        }
+    ]
+}
